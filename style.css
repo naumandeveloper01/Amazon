@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* 
+================== 
+    Static Element
+================== 
+ */
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+button {
+  outline: none;
+  border: none;
+}
+/* 
+================== 
+ End here Static Element
+================== 
+ */
+.navbar {
+  width: 100%;
+  height: 80px;
+  background: transparent;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.logo {
+  width: 20%;
+  height: 80px;
+  /* background: brown; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: url("./assert/logo.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.nav {
+  width: 80%;
+  height: 80px;
+  /* background: skyblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav li {
+  /* width: 80px; */
+  margin-left: 50px;
+}
+.nav a {
+  color: white;
+  /* font-weight: bold; */
+  font-size: large;
+}
+.header {
+  width: 100%;
+  height: 89.6vh;
+  background: url("./assert/header.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+.header .container {
+  width: 900px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .container .headtxt {
+  color: whitesmoke;
+}
+/* 
+==========================
+  Product Section
+==========================
+ */
+.productsection {
+  width: 100%;
+  height: 1400px;
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+}
+.productsection h1 {
+  margin: 20px auto;
+  font-weight: bolder;
+}
+.productsection .productlist {
+  width: 90%;
+  height: 400px;
+  margin: 0px auto;
+  /* background: yellow; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.productsection .productlist .card {
+  width: 260px;
+  height: 290px;
+  background: white;
+  border: 2px solid orange;
+  /* overflow: auto; */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.productsection .productlist .card > img {
+  width: 100%;
+  height: 140px;
+}
+.card .cardbody {
+  width: 100%;
+  height: 200px;
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+}
+.card .cardbody .cardtitle {
+  margin: 5px auto;
+}
+.card .cardbody p {
+  padding: 5px;
+  margin: 5px auto;
+}
+.card .cardbody .button {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin: 0px auto; */
+  /* padding: 5px 10px; */
+  /* background: red; */
+  /* outline: none; */
+  /* border: none; */
+}
+.card .cardbody button:first-child {
+  background: red;
+}
+.card .cardbody button:last-child {
+  background: blue;
+}
+.card .cardbody a {
+  color: white;
+}
+
+.productsection .productlist .card > img {
+  margin: 10px auto;
+}
+.card .cardbody button {
+  /* width: 40px; */
+  width: 120px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.productsection {
+  margin: 100px 0px 0px 0px;
+}
+.productsection h1 {
+  /* margin: 20px auto; */
+  margin: 100px auto;
+}
+/* 
+========================
+      Footer
+========================
+ */
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .firstsection {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .firstsection *,
+.footer .secondsection * {
+  color: white;
+}
+.footer .secondsection {
+  margin: 10px;
+}
+.footer ul > li {
+  margin-top: 10px;
+}
